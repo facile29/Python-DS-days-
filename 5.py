@@ -18,15 +18,15 @@ else:
 '''find if the number is prime or not''' 
 
 n= int(input("enter the number to check if it's prime:"))
+if n==1:
+    print("not prime")
 if n>1:
-    print(n, "is not prime number")
-else: 
     for i in range(2, n):
         if n % i==0:
             print(n, "is not prime number")
-            
-        else:
-            print(n, "is prime ")
+            break           
+    else:
+        print(n, "is prime ")
     
 
 '''check for palindrome number '''
