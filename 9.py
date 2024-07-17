@@ -1,4 +1,4 @@
-'''problem solving'''
+'''PROBLEM SOLVING'''
 
 '''sort values'''
 
